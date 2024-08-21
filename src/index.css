@@ -28,7 +28,18 @@ h1 {
 p {
   text-transform: capitalize;
 }
+/* /////////////////////////////////////// */
 /* ////////////navbar css/////////// */
+
+
+/* Individual navigation link styling */
+.nav-li{
+  text-decoration: none;
+  display: flex;
+  margin-left: 20px;
+}
+
+/* ////////////////////////////////////////// */
 .navbar-toggler {
   background-color: white !important;
 }
