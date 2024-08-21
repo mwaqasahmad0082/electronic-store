@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Product from "./pages/Product";
 import Vesite from "./pages/Vesite";
-import Discount from "./Pages/Discount";
+import Discount from "./pages/Discount";
 import Slider from "./pages/Slider";
 import Services from "./pages/Services";
 import Contect from "./pages/Contect";
