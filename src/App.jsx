@@ -23,7 +23,7 @@ function App() {
       ),
     },
     {
-      path: "/About",
+      path: "/about",
       element: (
         <Layout>
           <About />
@@ -31,7 +31,7 @@ function App() {
       ),
     },
     {
-      path: "/Product",
+      path: "/product",
       element: (
         <Layout>
           <Product />
@@ -39,7 +39,7 @@ function App() {
       ),
     },
     {
-      path: "/Vesite",
+      path: "/vesite",
       element: (
         <Layout>
           <Vesite />
@@ -47,7 +47,7 @@ function App() {
       ),
     },
     {
-      path: "/Discount",
+      path: "/discount",
       element: (
         <Layout>
           <Discount />
@@ -55,7 +55,7 @@ function App() {
       ),
     },
     {
-      path: "/Slider",
+      path: "/slider",
       element: (
         <Layout>
           <Slider />
@@ -63,7 +63,7 @@ function App() {
       ),
     },
     {
-      path: "/Services",
+      path: "/services",
       element: (
         <Layout>
           <Services />
