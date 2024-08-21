@@ -26,18 +26,18 @@ const Home = () => {
               <Link to="/about" className="nav-li">
                 About
               </Link>
-              <NavLink href="/product" className="nav-li">
+              <Link to="/product" className="nav-li">
                 products
-              </NavLink>
-              <NavLink href="/vesite" className="nav-li">
+              </Link>
+              <Link to="/vesite" className="nav-li">
                 Vesiter
-              </NavLink>
-              <NavLink href="/discount" className="nav-li">
+              </Link>
+              <Link to="/discount" className="nav-li">
                 Discounts
-              </NavLink>
-              <NavLink href="/slider" className="nav-li">
+              </Link>
+              <Link to="/slider" className="nav-li">
                 items
-              </NavLink>
+              </Link>
               <NavLink href="/services" className="nav-li">
                 Services
               </NavLink>
