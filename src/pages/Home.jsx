@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,22 +23,22 @@ const Home = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <NavLink to="/about" className="nav-li">
-                about
-              </NavLink>
-              <NavLink to="/product" className="nav-li">
+              <Link to="/about" className="nav-li">
+                About
+              </Link>
+              <NavLink href="/product" className="nav-li">
                 products
               </NavLink>
-              <NavLink to="/vesite" className="nav-li">
+              <NavLink href="/vesite" className="nav-li">
                 Vesiter
               </NavLink>
-              <NavLink to="/discount" className="nav-li">
+              <NavLink href="/discount" className="nav-li">
                 Discounts
               </NavLink>
-              <NavLink to="/slider" className="nav-li">
+              <NavLink href="/slider" className="nav-li">
                 items
               </NavLink>
-              <NavLink to="/services" className="nav-li">
+              <NavLink href="/services" className="nav-li">
                 Services
               </NavLink>
             </Nav>
