@@ -38,9 +38,9 @@ const Home = () => {
               <Link to="/slider" className="nav-li">
                 items
               </Link>
-              <NavLink href="/services" className="nav-li">
+              <Link to="/services" className="nav-li">
                 Services
-              </NavLink>
+              </Link>
             </Nav>
 
             <Form className="d-flex">
