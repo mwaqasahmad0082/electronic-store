@@ -1,0 +1,328 @@
+/* ///////globel css////////////// */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "lexend Deca", sans-serif;
+}
+h2 {
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.2rem;
+  font-weight: bold !important;
+}
+h1 {
+  text-transform: capitalize;
+  font-size: 3.2rem;
+}
+p {
+  text-transform: capitalize;
+}
+/* ////////////navbar css/////////// */
+.navbar-toggler {
+  background-color: white !important;
+}
+.home-component {
+  background-color: rgb(24, 24, 24);
+}
+.Navbar.Brand {
+  font-size: larger;
+  font-weight: bolder;
+  color: white !important;
+}
+.nav-li {
+  color: rgb(244, 238, 238) !important;
+  font-weight: 100 !important;
+  transition: 0.8s;
+}
+.nav-li:hover {
+  color: gray !important;
+  font-weight: 400 !important;
+  transition: 0.8s;
+}
+/* ////////////about component css////////////// */
+.about-component {
+  background-color: rgb(40, 40, 40);
+  color: rgb(192, 187, 187);
+  height: 80vh;
+  position: relative;
+}
+.about-first-row {
+  border-radius: 10px;
+  height: 50vh;
+}
+.about-first-row:hover {
+  color: white;
+  background-color: rgb(63, 61, 61) !important;
+  transition: 0.8s;
+}
+.about-first-row {
+  background-color: rgb(117, 120, 120) !important;
+  color: black;
+  transition: 0.8s;
+}
+.about-second-row {
+  height: 50vh;
+}
+ul li {
+  list-style: none;
+  font-size: small;
+  margin-top: 2px;
+}
+.d-block {
+  height: 50vh;
+}
+.about-second-row {
+  border-radius: 10px;
+}
+.Carousel.Item {
+  border-radius: 10px !important;
+}
+
+@media (max-width: 767px) {
+  .about-first-row {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  ul li {
+    font-size: x-small;
+  }
+}
+@media (max-width: 1199px) {
+  .about-icons {
+    font-size: x-small;
+  }
+}
+.custom-shape-divider-bottom-1723548526 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1723548526 svg {
+  position: relative;
+  display: block;
+  width: calc(121% + 1.3px);
+  height: 66px;
+}
+
+.custom-shape-divider-bottom-1723548526 .shape-fill {
+  fill: #ffffff;
+}
+
+.vesite-component {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.9),
+      rgba(22, 22, 22, 0.9)
+    ),
+    url(imges/pro16.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 6rem 0;
+}
+.vesite-component {
+  height: 100%;
+  position: relative;
+}
+.vesite-component {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+.visite-front-img {
+  max-width: 100%;
+  height: auto;
+  width: 30rem;
+  border-radius: 2rem;
+}
+/* ////////////////product css/////////////////// */
+.custom-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.card:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+}
+/* ////////////////Vesite css///////////////////// */
+.img-fluid {
+  max-width: 50% !important;
+  height: auto;
+}
+
+/* ////////////////Discount component/////////////// */
+
+@media (max-width: 991px) {
+  .discount-content-first-row {
+    text-align: center !important;
+  }
+
+  .discount-content-first-row button {
+    width: auto;
+  }
+}
+.btn-button {
+  border-radius: 10px;
+  padding: 6px;
+  background: none;
+  color: rgb(230, 230, 239);
+  border: 2px solid rgb(232, 232, 238);
+}
+.btn-button:hover {
+  color: rgb(9, 9, 245);
+  border: 2px solid rgb(7, 7, 241);
+}
+.btn-button1 {
+  border-radius: 10px;
+  padding: 6px;
+  background: none;
+  color: black;
+  border: 2px solid rgb(7, 7, 7);
+}
+.btn-button1:hover {
+  color: rgb(90, 89, 89);
+  border: 2px solid rgb(95, 95, 95);
+}
+.discount-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+/* /////BUTTON HOVER EFFECT////// */
+
+/* .middle {
+    position: relative;
+    transform: translate(-50, -50);
+    
+  }
+  .btn-button {
+    background: none;
+    border: 2px solid black;
+    transition: color 0.4s linear;
+    padding: 8px;
+    z-index: 1;
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    font-family: "Dosis", sans-serif;
+    font-size: 1.4rem;
+    overflow: hidden !important;
+  }
+  .btn-button:hover:before {
+    transform: translateX(0);
+    
+  }
+  .btn-button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    
+  }
+  .btn-button:hover {
+    color: #ffffff;
+  } */
+/* ////////////////////////Slider css/////////////////// */
+.slider-component{
+  position: relative;
+}
+@media (max-width: 991px) {
+  .card {
+    width: 14rem !important;
+  }
+}
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 50%;
+  color: #ffffff !important;
+}
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+[data-bs-theme="dark"] .carousel .carousel-indicators [data-bs-target],
+[data-bs-theme="dark"].carousel .carousel-indicators [data-bs-target] {
+  background-color: white !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  gap: 100px;
+}
+.carousel-row {
+  display: flex;
+  justify-content: center;
+}
+.carousel-indicators {
+ margin-top: 90px;
+
+}
+/* .card-imgs{
+    padding: 15px !important;
+  }
+  .card-imgs:hover{
+      background-color: rgb(24, 23, 23);
+  } */
+/* ////////////contect css/////////////// */
+.contect-component {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-shape-divider-top-1723475262 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1723475262 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 53px;
+}
+
+.custom-shape-divider-top-1723475262 .shape-fill {
+  fill: #ffffff;
+}
+.services-pic {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-indicators{
+  margin-bottom: -2rem !important;
+}
+@media (max-width: 1199px) {
+  .card {
+    width: 14rem !important;
+  }
+}
