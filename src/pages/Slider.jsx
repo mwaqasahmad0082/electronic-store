@@ -15,8 +15,8 @@ import slider9 from "../imges/pro13.jpg";
 
 const imageStyle = {
   width: '100%',
-  height: '200px', // Adjust height as needed
-  objectFit: 'cover' // Ensures the image covers the area without distortion
+  height: '200px', 
+  objectFit: 'cover' 
 };
 
 const Slider = () => {
